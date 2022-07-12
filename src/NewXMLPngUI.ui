@@ -25,7 +25,7 @@
        </font>
       </property>
       <property name="text">
-       <string>Spritesheet XML Generator for Friday Night Funkin'</string>
+       <string>Спрайт ХМЛ Генератор для ФНФ</string>
       </property>
       <property name="alignment">
        <set>Qt::AlignCenter</set>
@@ -122,8 +122,8 @@
                  </size>
                 </property>
                 <property name="text">
-                 <string>Spritesheet
-Generation Settings</string>
+                 <string>Настройки 
+ Спрайт Генератора</string>
                 </property>
                </widget>
               </item>
@@ -136,7 +136,7 @@ Generation Settings</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Set Animation (Pose) Name</string>
+                 <string>Создать Имя Анимации (Позы)</string>
                 </property>
                </widget>
               </item>
@@ -161,7 +161,7 @@ Generation Settings</string>
                  </font>
                 </property>
                 <property name="text">
-                 <string>Generate XML</string>
+                 <string>Сгенерировать ХМЛ</string>
                 </property>
                </widget>
               </item>
@@ -246,7 +246,8 @@ Generation Settings</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Upload Icon-grid</string>
+                 <string>Загрузить Сетку Иконок(перевод
+кривой)</string>
                 </property>
                </widget>
               </item>
@@ -259,7 +260,7 @@ Generation Settings</string>
                  </size>
                 </property>
                 <property name="text">
-                 <string>Upload Icons</string>
+                 <string>Загрузить Иконки</string>
                 </property>
                </widget>
               </item>
@@ -269,7 +270,7 @@ Generation Settings</string>
                  <bool>true</bool>
                 </property>
                 <property name="text">
-                 <string>Psych Engine mode</string>
+                 <string>Псих Энджин Мод</string>
                 </property>
                </widget>
               </item>
@@ -277,7 +278,8 @@ Generation Settings</string>
                <widget class="QLabel" name="iconselected_label">
                 <property name="text">
                  <string>No. of
-icons selected:
+иконка выбрана (кривой
+перевод опять):
 0</string>
                 </property>
                 <property name="alignment">
@@ -317,8 +319,8 @@ icons selected:
                  </size>
                 </property>
                 <property name="text">
-                 <string>Generate New
-Icon-grid</string>
+                 <string>Сгенерировать новую
+Сборку Иконок</string>
                 </property>
                </widget>
               </item>
@@ -349,14 +351,14 @@ Icon-grid</string>
     </property>
     <widget class="QMenu" name="menuExport">
      <property name="title">
-      <string>Export...</string>
+      <string>Экспортировать...</string>
      </property>
      <addaction name="actionExport_as_Spritesheet_and_XML"/>
      <addaction name="actionExport_induvidual_images"/>
     </widget>
     <widget class="QMenu" name="menuImport">
      <property name="title">
-      <string>Import...</string>
+      <string>Импортировать...</string>
      </property>
      <addaction name="action_import_existing"/>
      <addaction name="actionImport_Images"/>
@@ -416,22 +418,22 @@ Icon-grid</string>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="action_import_existing">
    <property name="text">
-    <string>Import existing Spritesheet and XML</string>
+    <string>Импортировать существующие Спрайты и Хмл</string>
    </property>
   </action>
   <action name="actionImport_Images">
    <property name="text">
-    <string>Import Images....</string>
+    <string>Импортировать Изображение....</string>
    </property>
   </action>
   <action name="actionClear_Spritesheet_Grid">
    <property name="text">
-    <string>Clear Spritesheet Grid</string>
+    <string>Очистить спрайты</string>
    </property>
   </action>
   <action name="actionEdit_Frame_Properties">
    <property name="text">
-    <string>Edit Frame Properties</string>
+    <string>Изменить Свойства Фрейма (кривой перевод)</string>
    </property>
   </action>
   <action name="actionImport_icons">
@@ -439,7 +441,7 @@ Icon-grid</string>
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Import icons</string>
+    <string>Импортировать Иконки</string>
    </property>
   </action>
   <action name="actionImport_IconGrid">
@@ -447,7 +449,7 @@ Icon-grid</string>
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Import IconGrid</string>
+    <string>Импортировать Сборку Иконок</string>
    </property>
   </action>
   <action name="actionImport_Icons">
@@ -455,7 +457,7 @@ Icon-grid</string>
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Import Icons</string>
+    <string>Импортировать Иконки</string>
    </property>
   </action>
   <action name="actionClear_IconGrid">
@@ -463,7 +465,7 @@ Icon-grid</string>
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Clear IconGrid</string>
+    <string>Убрать Сборку Иконок</string>
    </property>
   </action>
   <action name="actionClear_Icon_selection">
@@ -471,22 +473,22 @@ Icon-grid</string>
     <bool>false</bool>
    </property>
    <property name="text">
-    <string>Clear Icon selection</string>
+    <string>Убрать Выбор Иконок</string>
    </property>
   </action>
   <action name="actionExport_as_Spritesheet_and_XML">
    <property name="text">
-    <string>Export as Spritesheet and XML</string>
+    <string>Экспортировать как Спрайт и ХМЛ</string>
    </property>
   </action>
   <action name="actionExport_induvidual_images">
    <property name="text">
-    <string>Export individual images</string>
+    <string>Экспортировать отдельные Изображения</string>
    </property>
   </action>
   <action name="actionPreview_Animation">
    <property name="text">
-    <string>Preview Animation</string>
+    <string>Предварительный Просмотр Анимации</string>
    </property>
   </action>
   <action name="actiondefault">
@@ -505,12 +507,12 @@ Icon-grid</string>
     <bool>true</bool>
    </property>
    <property name="text">
-    <string>Dark mode</string>
+    <string>Темный Режим</string>
    </property>
   </action>
   <action name="actionView_XML_structure">
    <property name="text">
-    <string>View XML structure</string>
+    <string>Получить Структуру Хмл</string>
    </property>
   </action>
   <action name="actionDefault">
@@ -556,7 +558,7 @@ Icon-grid</string>
   </action>
   <action name="actionImport_from_GIF">
    <property name="text">
-    <string>Import from GIF</string>
+    <string>Импортировать из GIF</string>
    </property>
   </action>
  </widget>
