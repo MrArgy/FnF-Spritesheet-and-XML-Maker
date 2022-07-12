@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Animation Preview</string>
+   <string>Предватительный Просмотр Анимации</string>
   </property>
   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
    <item>
@@ -26,7 +26,7 @@
       <item>
        <widget class="QLabel" name="animation_info_label">
         <property name="text">
-         <string>Animation Name to be played:</string>
+         <string>Анимация которая будет проиграна:</string>
         </property>
        </widget>
       </item>
@@ -55,7 +55,7 @@
       <item>
        <widget class="QPushButton" name="play_anim_button">
         <property name="text">
-         <string>Play Animation</string>
+         <string>Проиграть Анимацию</string>
         </property>
        </widget>
       </item>
